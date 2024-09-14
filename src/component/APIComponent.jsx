@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import DisplayResult from "./DisplayResult"; // الكومبوننت اللي بيعرض النتيجة
+import DisplayResult from "./DisplayResult";
 
 export default function APIComponent({ searchWord }) {
   const [result, setResult] = useState(null);

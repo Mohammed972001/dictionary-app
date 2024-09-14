@@ -1,6 +1,6 @@
-import Header from "./componant/header";
-import Serchinput from "./componant/serchinput";
-import APIComponent from "./componant/APIComponent";
+import Header from "./component/header";
+import Serchinput from "./component/serchinput";
+import APIComponent from "./component/APIComponent";
 import { useState } from "react";
 
 const App = () => {
